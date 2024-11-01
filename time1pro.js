@@ -5,10 +5,10 @@ function runclock(){
   var m=time.getMinutes();
   var s=time.getSeconds();
   var txt="AM";
-  if(h>=12){
+  if(h>12){
     h=h-12;
     txt='PM';
-  }else if(h==00){
+  }else if(h==0){
     h=12;
     txt='AM'
   }
