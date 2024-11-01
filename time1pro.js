@@ -8,7 +8,7 @@ function runclock(){
   if(h>=12){
     h=h-12;
     txt='PM';
-  }else if(h==0){
+  }else if(h==00){
     h=12;
     txt='AM'
   }
